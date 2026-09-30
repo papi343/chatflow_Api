@@ -1,1 +1,10 @@
-export class Conversation {}
+export class Conversation {
+    constructor(
+        id: string,
+        userId: string,
+        createdAt: Date,
+        updatedAt: Date,
+    ) {
+
+    }
+}
